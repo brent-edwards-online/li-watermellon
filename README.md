@@ -1,4 +1,4 @@
-# LI Watermellon Coding TEst
+# LI Watermellon Coding Test
 
 ## ASP.NET Developer Exam
 ### Objectives
@@ -32,19 +32,12 @@ files have been provided for you to export and use in the site however you see f
 ### FORM FIELDS
 The form must contain all the following fields which must be validated accordingly and show meaningful
 feedback to the user upon not validating.
-Field Input Validation
-Full name Textbox Required
-Email Textbox Required, valid email, email autocomplete (see autocomplete)
-Male / Female Radio button Required
-Where is your favourite
-place to eat
-watermelon?
-Multiline
-textbox
-Required, 100 words maximum. One word is any string of
-characters separated by a space (eg: ‘Here’s my test entry’ –
-4 words)
-Terms and conditions Checkbox Required
+- Field Input Validation
+- Full name Textbox Required
+- Email Textbox Required, valid email, email autocomplete (see autocomplete)
+- Male / Female Radio button Required
+- Where is your favourite place to eat watermelon? Multiline textbox Required, 100 words maximum. One word is any string of characters separated by a space (eg: ‘Here’s my test entry’ – 4 words)
+- Terms and conditions Checkbox Required
 ### Autocomplete
 The email field of the form should not allow users who have already entered the database to enter a second
 time. When the user fills in their email address it should make a web service call to the database to check if
