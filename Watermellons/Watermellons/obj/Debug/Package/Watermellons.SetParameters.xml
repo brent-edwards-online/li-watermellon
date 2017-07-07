@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/" />
+  <setParameter name="WatermellonConnectionString-Web.config Connection String" value="Data Source=watermellon.c6l7zcpszonh.ap-southeast-2.rds.amazonaws.com;Database=Watermellon;Integrated Security=False;User ID=watermellonadmin;Password=watermellonpass;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" />
+  <setParameter name="LocalWatermellonConnectionString-Web.config Connection String" value="Data Source=BRENT-ASUS\MSSQLSERVER01;Initial Catalog=Watermellon;MultipleActiveResultSets=True;Trusted_Connection=Yes" />
+</parameters>
