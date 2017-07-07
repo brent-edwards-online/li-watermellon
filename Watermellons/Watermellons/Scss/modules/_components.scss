@@ -1,0 +1,158 @@
+.full-width {
+    width: 100%;
+}
+
+html {
+    position: relative;
+}
+
+/* Form */
+#entry-form {
+    color: $col-form-green;
+    background: $col-form-white;
+    width: 350px;
+    position: absolute;
+    top: 100px;
+    left: 60%;
+    border-radius: 0;
+    padding: 50px 20px 10px 20px;
+
+    #entry-form-img-container {
+        h1 {
+            font-size: 2em;
+            z-index: 10;
+            color: $col-form-white;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding-left: 10%;
+        }
+    }
+}
+
+#small-heading {
+    display: none;
+    position: relative;
+    min-height: 80px;
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        z-index: -1;
+    }
+    h1{
+        margin-top:0;
+        margin-bottom:0;
+        z-index: 10;
+        margin-left: 10%;
+        color: $col-form-white;
+        line-height: 80px;
+        height: 80px;
+    }
+}
+
+
+
+#form-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* section*/
+#main-section {
+    background-image: url(/Content/Images/texturedBG.jpg);
+    padding-left: 15%;
+    padding-right: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#main-section p {
+    font-family: 'Arvo', sans-serif;
+}
+
+@media only screen and (max-width: 1000px) {
+    #main-section {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    #entry-form {
+        min-width: 350px;
+        display: block;
+        padding-left: 10%;
+        padding-right: 10%;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding-top: 0;
+
+        #entry-form-img-container{
+            display: none;
+        }
+    }
+
+    #small-heading{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #small-heading{
+        h1{
+            font-size: 30px;
+        }
+    }
+}
+
+/* Footer */
+footer {
+    background-color: $col-footer-brown;
+    color: $col-footer-white;
+    height: 120px;
+}
+
+footer ul {
+    padding-top: 50px;
+    padding-left: 15%;
+    list-style: none;
+}
+
+footer li {
+    float: left;
+    margin-right: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: $col-footer-menu;
+}
+
+footer a.active {
+    text-decoration: none;
+    color: $col-footer-menu-active;
+    font-weight: 500;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: $col-footer-menu-active;
+    font-weight: 500;
+}
+
+footer .fa {
+    color: $col-footer-white;
+}
+
+/* Thank You */
+.thank-you {
+    background: $col-form-white;
+    color: $col-form-green;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}

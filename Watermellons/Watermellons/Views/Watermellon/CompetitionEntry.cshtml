@@ -1,0 +1,92 @@
+﻿@model Watermellons.EntityFramework.CompetitionEntry
+
+@{
+    ViewBag.Title = "Watermellon Australia";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="main-section">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed suscipit dignissim ante
+        ut ultricies. Nullam et pellentesque purus. Pellentesque laoreet ac nibh nec molestie.
+        Mauris quis malesuada libero. Etiam eu elit nec arcu vestibulum faucibus quis sed lectus.
+        Donec in purus vitae arcu bibendum mattis sit amet quis augue. Morbi hendrerit eros vitae
+        felis scelerisque, in lacinia tortor maximus.
+    </p>
+    <p>
+        Etiam id tortor justo. Etiam fringilla finibus sem. Nullam quis nunc ante. Vestibulum eleifend
+        diam ut consequat porttitor. Suspendisse consequat gravida odio sit amet bibendum. Duis vel
+        odio ipsum. Donec tincidunt dui nec rutrum pretium. Mauris quis leo dui.
+    </p>
+</section>
+
+<div id="small-heading">
+    <h1>Enter Competition</h1>
+    <img src="~/Content/Images/thankyouHeader.png" alt="Header Image">
+</div>
+
+<div id="entry-form">
+    <div id="entry-form-img-container">
+        <h1>Enter Competition</h1>
+        <img id="form-header" src="~/Content/Images/formHeader.png" alt="Header Image">
+    </div>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div>
+            <hr>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.FullName, "Full Name", htmlAttributes: new { @class = "control-label" })
+                <div class="">
+                    @Html.EditorFor(model => model.FullName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.FullName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Email, "Email", htmlAttributes: new { @class = "control-label" })
+                <div class="">
+                    @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    <span id="email-validation-message" style="display:block" class="field-validation-error text-danger">You have already entered the competition</span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Gender, "Male or Female", htmlAttributes: new { @class = "control-label" })
+                <div>
+                    @Html.RadioButtonFor(model => model.Gender, "false", new { @checked = "checked" }) <span class="minor-font">Male</span>
+                    @Html.RadioButtonFor(model => model.Gender, "true") <span class="minor-font">Female</span>
+                    @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.FavouriteWatermellonPlace, "Where is your favourite place to eat watermellon?", htmlAttributes: new { @class = "control-label" })
+                <div>
+                    @Html.EditorFor(model => model.FavouriteWatermellonPlace, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.FavouriteWatermellonPlace, "", new { @class = "text-danger" })
+                    <p id="favorite-place-message-count" class="text-info"></p>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div>
+                    <div class="checkbox">
+                        @Html.EditorFor(model => model.TermsAndConditionsAccepted) <span class="minor-font">I agreee to the terms and conditions</span>
+                        @Html.ValidationMessageFor(model => model.TermsAndConditionsAccepted, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-12 alignCenter">
+                    <input id="submit-button" type="submit" value="Submit" class="btn btn-danger" disabled>
+                </div>
+            </div>
+        </div>
+    }
+</div>
