@@ -77,4 +77,9 @@
             $('#submit-button').prop('disabled', true);
         }
     })
+
+    $(window).resize(function () {
+        let w = $(window).width();
+        console.log(w);
+    });
 });

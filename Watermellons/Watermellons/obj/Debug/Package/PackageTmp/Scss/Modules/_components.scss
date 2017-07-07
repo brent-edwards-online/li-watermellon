@@ -81,7 +81,13 @@ html {
     }
 }
 
-
+@media only screen and (max-width: 500px) {
+    #small-heading{
+        h1{
+            font-size: 25px;
+        }
+    }
+}
 
 @media only screen and (max-width: 1000px) {
     #main-section {
@@ -90,7 +96,7 @@ html {
     }
 
     #entry-form {
-        min-width: 350px;
+        /*min-width: 350px;*/
         display: block;
         padding-left: 10%;
         padding-right: 10%;
@@ -110,13 +116,7 @@ html {
     }
 }
 
-@media only screen and (max-width: 500px) {
-    #small-heading{
-        h1{
-            font-size: 30px;
-        }
-    }
-}
+
 
 /* Footer */
 footer {
