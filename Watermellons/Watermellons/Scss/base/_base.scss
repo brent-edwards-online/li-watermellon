@@ -30,6 +30,11 @@ h1, h2, h3, h4, h5, h6, a, p {
   text-align:center;
 }
 
-.fa {
-  color: $col-footer-white;
+.fa.fa-twitter, .fa.fa-facebook, .fa.fa-pinterest-p {
+  color: $col-footer-brown;
+}
+
+
+.fa-stack-1x, i.fa.fa-circle.fa-stack-2x.fa-inverse{
+    top:-5px;
 }

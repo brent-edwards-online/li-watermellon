@@ -57,8 +57,6 @@ D:\Development\Git-Repository\tdd-demo\Watermellons\Watermellons\bin\System.Web.
 D:\Development\Git-Repository\tdd-demo\Watermellons\Watermellons\obj\Debug\Watermellons.csprojResolveAssemblyReference.cache
 D:\Development\Git-Repository\tdd-demo\Watermellons\Watermellons\obj\Debug\Watermellons.dll
 D:\Development\Git-Repository\tdd-demo\Watermellons\Watermellons\obj\Debug\Watermellons.pdb
-D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.Migrations.InitialMigration.resources
-D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.csproj.GenerateResource.Cache
 D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\bin\ApplicationInsights.config
 D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\bin\roslyn\csc.exe
 D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
@@ -130,10 +128,12 @@ D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\bin\Syste
 D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\bin\System.Web.Http.xml
 D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\bin\System.Web.Http.WebHost.xml
 D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.csprojResolveAssemblyReference.cache
-D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.dll
-D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.pdb
+D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.Migrations.InitialMigration.resources
 D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.Migrations.ChangeGenderToBoolean.resources
 D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.Migrations.UpdateDataModel.resources
 D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.Migrations.AddIndexToEmailColumn.resources
 D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.Migrations.SetDefaultValues.resources
 D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.Migrations.UpdateFavouriteWatermellonPlaceLength.resources
+D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.csproj.GenerateResource.Cache
+D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.dll
+D:\Development\Git-Repository\li-watermellon\Watermellons\Watermellons\obj\Debug\Watermellons.pdb
