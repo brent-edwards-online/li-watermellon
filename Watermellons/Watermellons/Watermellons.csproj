@@ -190,13 +190,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\WatermellonController.cs" />
-    <Compile Include="DBContext\BaseFactory.cs" />
-    <Compile Include="DBContext\DatabaseFactory.cs" />
-    <Compile Include="DBContext\Disposable.cs" />
-    <Compile Include="DBContext\WatermellonDbContext.cs" />
-    <Compile Include="DBContext\IDatabaseFactory.cs" />
-    <Compile Include="DBContext\IUnitOfWork.cs" />
-    <Compile Include="DBContext\UnitOfWork.cs" />
+    <Compile Include="DbContext\BaseFactory.cs" />
+    <Compile Include="DbContext\DatabaseFactory.cs" />
+    <Compile Include="DbContext\Disposable.cs" />
+    <Compile Include="DbContext\WatermellonDbContext.cs" />
+    <Compile Include="DbContext\IDatabaseFactory.cs" />
+    <Compile Include="DbContext\IUnitOfWork.cs" />
+    <Compile Include="DbContext\UnitOfWork.cs" />
     <Compile Include="EntityFramework\CompetitionEntry.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -293,7 +293,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
