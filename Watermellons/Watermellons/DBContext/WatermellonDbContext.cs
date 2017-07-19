@@ -10,7 +10,7 @@ namespace Watermellons.Repository
     public partial class WatermellonDbContext : DbContext
     {
         /// <summary>
-        /// Initializes static members of the <see cref="FitCloudCommissionsContext"/> class.
+        /// Initializes static members of the <see cref="WatermellonDbContext"/> class.
         /// </summary>
         static WatermellonDbContext()
         {
@@ -18,8 +18,7 @@ namespace Watermellons.Repository
         }
 
         /// <summary>
-        /// Initializes a new instance of the <see cref="FitCloudCommissionsContext"/> class.
-        /// Base name refers to the web.config connection string key.  Which remains the same for all fitcloud internal components.
+        /// Initializes a new instance of the <see cref="WatermellonDbContext"/> class.
         /// </summary>
         public WatermellonDbContext()
             : base("Name=WatermellonConnectionString")

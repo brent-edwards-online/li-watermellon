@@ -14,7 +14,7 @@
         /// <summary>
         /// The get.
         /// </summary>
-        /// <returns>The <see cref="FitCloudCommissionsContext"/>.</returns>
+        /// <returns>The <see cref="WatermellonDbContext"/>.</returns>
         public WatermellonDbContext Get()
         {
             return this.dataContext ?? (this.dataContext = new WatermellonDbContext());
